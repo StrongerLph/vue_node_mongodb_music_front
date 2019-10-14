@@ -26,7 +26,7 @@ module.exports = {
   },
   configureWebpack: {
     // 配置web应用标题title，及将src目录路径映射为@
-    name: 'video_player',
+    name: 'music_player',
     resolve: {
       alias: {
         '@': resolve('src')

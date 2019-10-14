@@ -1,5 +1,5 @@
 {
-  "name": "video_player",
+  "name": "music_player",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
     "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
+    "js-cookie": "^2.2.1",
+    "js-md5": "^0.7.3",
+    "moment": "^2.24.0",
+    "qiniu-js": "^2.5.4",
     "vue": "^2.6.10",
+    "vue-aplayer": "^1.6.1",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
@@ -19,6 +27,7 @@
     "@vue/cli-service": "^3.11.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
